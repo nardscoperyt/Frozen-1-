@@ -288,7 +288,7 @@ client.on('message', message => {
     if (message.content === '1help') {///حقوق سيرفر بلوبوت كودز
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**frozenMusic Commands...**')
-        .setDescription('**prefix(1play)**')
+        .setDescription('**prefix(1)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('skip', 'تخطي الأغنية')
         .addField('vol', 'للتحكم بالصوت')
